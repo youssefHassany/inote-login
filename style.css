@@ -70,6 +70,10 @@ form a {
   margin: 1rem 0;
 }
 
+form a:hover {
+  text-decoration: underline;
+}
+
 form button {
   font-family: "Noto Sans Arabic", sans-serif;
   font-weight: 600;
@@ -81,6 +85,12 @@ form button {
   border: none;
   outline: none;
   cursor: pointer;
+  transition: all 200ms;
+}
+
+form button:hover {
+  transform: translateY(-4px);
+  opacity: 0.9;
 }
 
 .hello-msg {
